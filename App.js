@@ -25,6 +25,6 @@ container: {
     flex: 1,
     backgroundColor: "#ad0546",
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
 });

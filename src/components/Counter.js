@@ -18,12 +18,14 @@ const styles = StyleSheet.create({
         width: "80%",
         margin: 14,
         padding: 14,
-        backgroundColor: "beige"
+        backgroundColor: "beige",
+        borderRadius: 3,
+        borderWidth: 1
 
     },
     counterText: {
         fontSize: 30,
-        textAlign: "center"
+        textAlign: "center",
     }
 
 })

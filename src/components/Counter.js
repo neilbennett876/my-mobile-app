@@ -6,7 +6,7 @@ export default function Counter() {
     return(
         <View style={styles.counterContainer}>
             <Text style={styles.counterText}>You clicked the button {count} times</Text>
-            <Button title="Plus" onPress={() => setCount(count +1)}/>
+            <Button style={styles.counterButton} title="Plus" onPress={() => setCount(count +1)}/>
             <Button title="Minus" onPress={() => setCount(count -1)}/>
             <Button title="Reset" onPress={() => setCount(0)}/>
         </View>
@@ -15,17 +15,20 @@ export default function Counter() {
 
 const styles = StyleSheet.create({
     counterContainer: {
-        width: "80%",
+        width: "50%",
         margin: 14,
         padding: 14,
-        backgroundColor: "beige",
-        borderRadius: 3,
-        borderWidth: 1
+        borderRadius: 15,
+        borderWidth: 1,
+        top: '15%'
 
     },
     counterText: {
         fontSize: 30,
         textAlign: "center",
+    },
+    counterButton: {
+        backgroundColor: '#ff0089'
     }
 
 })

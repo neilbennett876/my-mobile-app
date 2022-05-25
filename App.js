@@ -23,7 +23,7 @@ heading: {
 },
 container: {
     flex: 1,
-    backgroundColor: "#ad0546",
+    backgroundColor: "#bae6bf",
     alignItems: 'center',
     justifyContent: 'center'
   },
